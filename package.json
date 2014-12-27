@@ -1,0 +1,44 @@
+{
+  "name": "passwordless-nestore",
+  "version": "0.1.0",
+  "description": "NeDB TokenStore for Passwordless",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.0",
+    "nedb": "^0.11.1",
+    "passwordless-tokenstore": "0.0.10"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "chance": "^0.5.6",
+    "grunt": "~0.4.4",
+    "grunt-mocha-test": "~0.10.2",
+    "mocha": "~1.18.2",
+    "node-uuid": "^1.4.1",
+    "passwordless-tokenstore-test": "^0.1.0"
+  },
+  "author": "JeMaGa <jemaga@ymail.com>",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "keywords": [
+    "passwordless",
+    "nedb",
+    "nopassword",
+    "no-password",
+    "password-less",
+    "tokenstore"
+  ]
+}
